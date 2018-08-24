@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FindString</class>
+ <widget class="QDialog" name="FindString">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>390</width>
+    <height>115</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>390</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>390</width>
+    <height>115</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Find</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Find What:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="FindedString">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>10</y>
+     <width>231</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="FindButton">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>10</y>
+     <width>60</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Find Next</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="CancelButton">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>70</y>
+     <width>60</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>70</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QRadioButton" name="Up">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>31</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Up</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Down">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>20</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Down</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="All">
+    <property name="geometry">
+     <rect>
+      <x>107</x>
+      <y>20</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>All</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>-10</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Direction</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="ReplaceButton">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>40</y>
+     <width>60</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Replace</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="ReplaceString">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>40</y>
+     <width>231</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Replace with:</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

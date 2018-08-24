@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/new">
+        <file>white.ico</file>
+    </qresource>
+</RCC>
